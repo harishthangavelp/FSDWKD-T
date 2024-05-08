@@ -1,0 +1,19 @@
+.chessboard{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    border: 2px solid black;
+}
+
+.yellow-square {
+    height: 10px;
+    width: 10px;
+    background-color: gray;
+    position: static;
+}
+
+.grey-square {
+    height: 10px;
+    width: 10px;
+    background-color: yellow;
+}

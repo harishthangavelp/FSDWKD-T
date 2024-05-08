@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <link rel="stylesheet" href="indexs.css">
+    </head>
+<body bgcolor="gold">
+
+<p><b>Select your favourite sweet</b></p>
+
+<select id="mySelect" class="bg" onchange="myFunction()">
+<option class="c1"> Laddu </option>
+<option class="c2"> Jaggery </option>
+<option class="c3"> Halwa </option>
+<option class="c4"> Gulab Jamun </option>
+<option class="c5">  Jilabe </option>
+</select>
+
+<!-- <p>When you select a new car, a function is triggered which outputs the value of the selected car.</p> -->
+<br><br><br><br><br>
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let x = document.getElementById("mySelect").value;
+  document.getElementById("demo").innerHTML = "My favourite sweet is : " + x;
+}
+</script>
+
+</body>
+</html>
+
